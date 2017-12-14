@@ -194,7 +194,7 @@ Note: check that SHA256SUMS itself doesn't end up in SHA256SUMS, which is a spur
 
   - Update title of #gobytecoin on Freenode IRC
 
-  - Optionally reddit /r/GoBytepay, ... but this will usually sort out itself
+  - Optionally reddit /r/gobytecoin, ... but this will usually sort out itself
 
 - Notify flare so that he can start building [the PPAs](https://launchpad.net/~gobyte.org/+archive/ubuntu/gobyte)
 

@@ -46,7 +46,7 @@
       <key>CFBundleTypeRole</key>
       <string>Editor</string>
       <key>CFBundleURLName</key>
-      <string>org.gobyte.GoBytePayment</string>
+      <string>org.gobyte.gobytecoinment</string>
       <key>CFBundleURLSchemes</key>
       <array>
         <string>gobyte</string>

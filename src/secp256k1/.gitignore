@@ -25,6 +25,7 @@ config.status
 libtool
 .deps/
 .dirstamp
+build-aux/
 *.lo
 *.o
 *~

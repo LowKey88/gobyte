@@ -77,6 +77,11 @@ libconftest.dylib*
 *.lo
 *.la
 
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+gobyte-qt
+GoByte-Qt.app
 # Unit-tests
 Makefile.test
 gobyte-qt_test

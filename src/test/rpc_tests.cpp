@@ -124,8 +124,8 @@ BOOST_AUTO_TEST_CASE(rpc_rawsign)
     r = CallRPC(string("createrawtransaction ")+prevout+" "+
       "{\"GTCSpDEtjHfGnPaeopQzu2YLzb8N86DKP4\":1}");
     string notsigned = r.get_str();
-    string privkey1 = "\"XEwTRsCX3CiWSQf8YmKMTeb84KyTbibkUv9mDTZHQ5MwuKG2ZzES\"";
-    string privkey2 = "\"XDmZ7LjGd94Q81eUBjb2h6uV5Y14s7fmeXWEGYabfBJP8RVpprBu\"";
+    string privkey1 = "\"Ras53np5cMu2bg4ZK2UvCYJbPRQSPEiXWjRvHkRozJjdgZeKApXo\"";
+    string privkey2 = "\"RgGZvpxDB1cAqg3En6jdk988Q1zX7evDYpoJG55jaj8Mghx6uLeR\"";
     r = CallRPC(string("signrawtransaction ")+notsigned+" "+prevout+" "+"[]");
     BOOST_CHECK(find_value(r.get_obj(), "complete").get_bool() == false);
     r = CallRPC(string("signrawtransaction ")+notsigned+" "+prevout+" "+"["+privkey1+","+privkey2+"]");

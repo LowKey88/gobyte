@@ -19,7 +19,7 @@ PUBKEY_ADDRESS = 38
 SCRIPT_ADDRESS = 10
 PUBKEY_ADDRESS_TEST = 112
 SCRIPT_ADDRESS_TEST = 20
-PRIVKEY = 166
+PRIVKEY = 198
 PRIVKEY_TEST = 240
 
 metadata_keys = ['isPrivkey', 'isTestnet', 'addrType', 'isCompressed']

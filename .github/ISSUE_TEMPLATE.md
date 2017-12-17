@@ -1,7 +1,7 @@
 <!--- Remove this description and sections that do not apply -->
 
 This issue tracker is only for technical issues related to GoByte Core.
-General GoByte questions and/or support requests and are best directed to the [GoByte Discord](http://gobyte.discord.com).
+General GoByte questions and/or support requests and are best directed to the [GoByte Discord](http://discord.gobyte.network).
 
 ### Describe the issue
 
